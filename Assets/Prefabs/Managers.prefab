@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4416172031873244490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4416172031873244489}
+  - component: {fileID: 4416172031873244488}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416172031873244489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416172031873244490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4416172032273478669}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4416172031873244488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416172031873244490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f0abc6cef9719a42998329d9237f61c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_x_position: 8.5
+  max_y_position: 4.5
+  min_x_position: -8.5
+  min_y_position: -4.5
+  human:
+    serializedVersion: 2
+    m_Bits: 512
+  animal:
+    serializedVersion: 2
+    m_Bits: 1024
+  tree:
+    serializedVersion: 2
+    m_Bits: 256
+  border:
+    serializedVersion: 2
+    m_Bits: 2048
+  Animals:
+  - {fileID: 5238182711079090965, guid: df2d7a4e6a543314b8004ce995dcd0f9, type: 3}
+  - {fileID: 5238182711079090965, guid: df2d7a4e6a543314b8004ce995dcd0f9, type: 3}
+  - {fileID: 5238182711079090965, guid: df2d7a4e6a543314b8004ce995dcd0f9, type: 3}
+  Trees:
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  - {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2, type: 3}
+  Humans:
+  - {fileID: 7808628858598329150, guid: fddedd68490107049b872e649721ade7, type: 3}
+  - {fileID: 3719947636709610388, guid: c6aca75b172101c428907452ef1bdeb6, type: 3}
+  levelDifficulty: 0
+  gametime: 0
+  countdownTxt: {fileID: 0}
+--- !u!1 &4416172032090430492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4416172032090430483}
+  - component: {fileID: 4416172032090430482}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416172032090430483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416172032090430492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4416172032273478669}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4416172032090430482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416172032090430492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a35c572be4f2ff4dbaf46d4a77f8e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeList: []
+  pools:
+  - prefab: {fileID: 7808628858598329150, guid: fddedd68490107049b872e649721ade7,
+      type: 3}
+    maximumInstances: 10
+    poolName: Chopper
+  - prefab: {fileID: 3719947636709610388, guid: c6aca75b172101c428907452ef1bdeb6,
+      type: 3}
+    maximumInstances: 10
+    poolName: Hunter
+  - prefab: {fileID: 5238182711079090965, guid: df2d7a4e6a543314b8004ce995dcd0f9,
+      type: 3}
+    maximumInstances: 15
+    poolName: Pig
+  - prefab: {fileID: 4031991032391492155, guid: 84ac710047d3a7d4c9903120919071a2,
+      type: 3}
+    maximumInstances: 40
+    poolName: Tree
+--- !u!1 &4416172032273478670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4416172032273478669}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416172032273478669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416172032273478670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5194832, y: 0.7782732, z: -0.093322195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4416172031873244489}
+  - {fileID: 4416172032090430483}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
